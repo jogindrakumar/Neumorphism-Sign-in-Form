@@ -1,0 +1,92 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background: #efeeee;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+form {
+    background: #efeeee;
+    height: 360px;
+    width: 240px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 16px -2px #ccc, -10px -10px 16px -2px #fff;
+    text-align: center;
+    padding: 2em;
+}
+
+p {
+    color: #777;
+    margin-bottom: 2em;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+input {
+    width: 170px;
+    border: none;
+    border-radius: 5000px;
+    padding: 1em;
+    background: #efeeee;
+    box-shadow: inset 4px 4px 6px #ccc, inset -4px -4px 6px #fff;
+    margin-bottom: 2em;
+    color: #888;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 400; */
+}
+
+input[type=button] {
+    width: 100px;
+    box-shadow: 4px 4px 6px #ccc, -4px -4px 6px #fff;
+    margin-top: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+input:active {
+    box-shadow: inset 4px 4px 6px #ccc, inset -4px -4px 6px #fff;
+}
+
+input:focus {
+    outline: none;
+}
+
+::-moz-placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #aaa;
+}
+
+::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #aaa;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+    font-size: 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #aaa;
+}
+
+a:active {
+    color: #ccc;
+}
+
+a:focus {
+    outline: none;
+}
